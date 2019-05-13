@@ -1,4 +1,8 @@
 server:
   port: 8080
 
-name = Norton.Q
+nickname = Norton.Q
+
+school = 北京航空航天大学
+
+master = 移动云计算
