@@ -1,37 +1,4 @@
 server:
   port: 8080
-za: 
-  icare: 
-    redis:
-      configserver1: typhon-test-rest.zhonganonline.com
-logging:
-  path: /alidata1/admin/
-  levels:
-    org.springframework.boot.env.PropertySourcesLoader: TRACE
-    org.springframework.cloud.config.server: DEBUG
- 
-spring:
-  jackson:
-    serialization:
-      write-dates-as-timestamps: false 
-    serialization-inclusion: non_null
-    date-format: yyyy-MM-dd HH:mm:ss
-    time-zone: GMT+08
-  cors:
-    allowedOrigin: all
-  data:
-    mongodb:
-        host: 100.112.45.226
-        port: 27017
-        database: iyb_tower
-        username: iyb_tower_dev
-        password: iyb_tower_dev_a9f49d
-        connections-per-host: 20
-        min-connections-per-host: 20 
 
-redis:
-  redisConfigKey: /redisConfig/BAOYUN/test/iyb-tower
-  zkServer: 10.139.59.251:2181
-  maxTotal: 30
-  maxIdle: 10
-  timeOut: 3000
+name = Norton.Q
